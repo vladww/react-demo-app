@@ -1,0 +1,22 @@
+.dialog img {
+  width: 100px;
+  height: 70px;
+  margin: 5px 5px 0 5px;
+  border-radius: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dialog a {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-size: 24px;
+}
+.dialog a.active {
+  color: gold;
+}
+.dialog p {
+  position: relative;
+  text-align: center;
+  margin: 0 0 20px 0;
+}

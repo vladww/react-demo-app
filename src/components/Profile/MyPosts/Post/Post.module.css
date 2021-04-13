@@ -1,0 +1,38 @@
+.item {
+  text-align: left;
+  display: grid;
+  
+  grid-template-columns: 120px 10fr;
+  grid-template-rows: 80px 50px;
+  grid-template-areas: "pimg msg" "pf pf";
+  margin: 0 0 10px 0;
+}
+
+.item img {
+  width: 100px;
+  height: 70px;
+  margin: 5px;
+  border-radius: 40px;
+  /* float: left; */
+}
+
+.postImg {
+  grid-area: pimg;
+}
+
+.message {
+  grid-area: msg;
+  color: grey;
+  text-align: left;
+}
+
+.postTop {
+  font-weight: bold;
+  margin: 0 0 4px 0;
+}
+
+.postFooter {
+  grid-area: pf;
+  /* text-align: top; */
+  padding: 0 0 0 5px;
+}
